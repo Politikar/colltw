@@ -1,0 +1,97 @@
+/*========================================== 基本系 ==========================================*/
+body {
+    margin: 1em;
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
+    background: 
+    radial-gradient(rgba(255, 200, 149, 0.308) 3px, transparent 4px),
+    radial-gradient(rgba(185, 255, 182, 0.342) 3px, transparent 4px),
+    linear-gradient(rgba(255, 255, 255, 0.678) 3px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #ff959550 75px, #a4a4a44d 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #6cc4ff41 76px, #a4a4a448 77px, transparent 78px, transparent 109px),
+  #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+ }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+h1 {
+    border-bottom: double 0.4rem;
+    border-image: linear-gradient(to right, #78a3fff3 0%, #fb00ff00 70%);
+    border-image-slice: 1;
+    text-underline-offset:0;
+    margin-left: 8%;
+    font-size: 42px;
+    padding-bottom: 0;
+    width: 85%;
+    margin-bottom: 5%;
+  }
+
+h2 {
+    padding: 0px 15px 0px 15px;
+    border-bottom: 2mm ridge rgba(41, 47, 65, 0.6);
+    max-width: fit-content;
+    text-align: center;
+}
+
+h3 {
+    padding: 0px 10px 0px 5px;
+    max-width: fit-content;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#button2 {
+  position: fixed;
+  background-color: #0080FF;
+  color: #ffffff;
+  left: 20px;
+  bottom: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 24px;
+}
+
+/*=========================class系==========================*/
+
+.ZigZag_3D {
+  margin: 0;
+  background: linear-gradient(135deg, #ffb7653d 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #ffaded5d 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #49b94931 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #ffe8e83b 25%, #b1fffb34 25%) 0px 0/ 40px 40px;
+}
+
+.margin3 {
+  max-width: 550px;
+  height: auto;
+  margin: auto;
+  border-bottom: solid 6px #2a95ff54;
+  text-align: center;
+}
+
+.margin {
+  text-align: center;
+  height: auto;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.spsp {
+    margin-top: 10%;
+    text-align: center;
+    height: auto;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.text {
+  padding: 10px;
+}
